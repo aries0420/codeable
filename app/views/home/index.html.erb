@@ -1,0 +1,30 @@
+<div id="welcome" class="hero-unit span7">
+  <h1>Codeable</h1>
+  <h3>Access world-class code curriculum from anywhere.</h3>
+</div>
+<div class="row span8 plans">
+  <div class="span2 well">
+    <div class="plan"><h2>Evening</h2></div>
+    <ul class="unstyled">
+      <li>TBD</li>
+    </ul>
+    <h3>$19/month</h3>
+    <%= link_to 'Subscribe', new_user_registration_path(:plan => 'evening'), :class => 'btn btn-primary' %>
+  </div>
+  <div class="span2 well featured">
+    <div class="plan featured-plan"><h2>Silver</h2></div>
+    <ul class="unstyled">
+      <li>TBD</li>
+    </ul>
+    <h3>$29/month</h3>
+    <%= link_to 'Subscribe', new_user_registration_path(:plan => 'silver'), :class => 'btn btn-primary' %>
+  </div>
+  <div class="span2 well">
+    <div class="plan"><h2>Gold</h2></div>
+    <ul class="unstyled">
+      <li>TBD</li>
+    </ul>
+    <h3>$50/month</h3>
+    <%= link_to 'Subscribe', new_user_registration_path(:plan => 'gold'), :class => 'btn btn-primary' %>
+  </div>
+</div>
