@@ -20,9 +20,6 @@ db/*.sqlite3
 /log/*
 /tmp/*
 
-# course content
-**/evening.html.erb
-
 # various artifacts
 **.war
 *.rbc
