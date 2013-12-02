@@ -13,13 +13,6 @@ YAML.load(ENV['ROLES']).each do |role|
   puts 'role: ' << role
 end
 puts 'DEFAULT USERS'
-user = User.find_or_create_by_email :name => ENV['ADMIN_NAME'].dup, :email => ENV['ADMIN_EMAIL'].dup, :password => ENV['ADMIN_PASSWORD'].dup, :password_confirmation => ENV['ADMIN_PASSWORD'].dup
+user = User.find_or_create_by_email :name => ENV['ADMIN_NAME'].dup, :email => ENV['GMAIL_USERNAME'].dup, :password => ENV['GMAIL_PASSWORD'].dup, :password_confirmation => ENV['GMAIL_PASSWORD'].dup
 puts 'user: ' << user.name
 user.add_role :admin
-user2 = User.find_or_create_by_email :name => 'Evening User', :email => 'user2@example.com', :password => 'password', :password_confirmation => 'password'
-user2.add_role :evening
-user3 = User.find_or_create_by_email :name => 'Silver User', :email => 'user3@example.com', :password => 'password', :password_confirmation => 'password'
-user3.add_role :silver
-user4 = User.find_or_create_by_email :name => 'Gold User', :email => 'user4@example.com', :password => 'password', :password_confirmation => 'password'
-user4.add_role :gold
-puts "users: #{user2.name}, #{user3.name}, #{user4.name}"
