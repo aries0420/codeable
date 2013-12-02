@@ -2,7 +2,6 @@ Codeable::Application.routes.draw do
 
   resources :assignments
 
-
   mount StripeEvent::Engine => '/stripe'
   get "content/evening"
   get "content/gold"
