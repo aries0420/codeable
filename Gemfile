@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # For deployment on Heroku
-  gem "heroku"
+gem "heroku"
 
 group :development, :test do
   gem 'sqlite3'
