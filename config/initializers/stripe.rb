@@ -17,3 +17,4 @@ StripeEvent.setup do
     user.deactivate!
     AppMailer.delay.payment_failure(user)
   end
+end
