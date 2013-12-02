@@ -11,15 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131202193435) do
+ActiveRecord::Schema.define(:version => 20131202212313) do
 
   create_table "assignments", :force => true do |t|
     t.string   "category"
     t.string   "title"
     t.text     "description"
     t.string   "link"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "assignment_id"
   end
 
   create_table "roles", :force => true do |t|
