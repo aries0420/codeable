@@ -1,5 +1,4 @@
-class AssignmentsController < ApplicationController
-  before_filter :authorize!
+class Admin::AssignmentsController < ApplicationController
 
   # GET /assignments
   # GET /assignments.json
@@ -16,6 +15,7 @@ class AssignmentsController < ApplicationController
   # GET /assignments/1
   # GET /assignments/1.json
   def show
+    authorize! :show, @user, :message => 'Not authorized as an administrator.'
     @assignment = Assignment.find(params[:id])
 
     respond_to do |format|
@@ -27,6 +27,7 @@ class AssignmentsController < ApplicationController
   # GET /assignments/new
   # GET /assignments/new.json
   def new
+    authorize! :new, @user, :message => 'Not authorized as an administrator.'
     @assignment = Assignment.new
 
     respond_to do |format|
@@ -37,6 +38,7 @@ class AssignmentsController < ApplicationController
 
   # GET /assignments/1/edit
   def edit
+    authorize! :edit, @user, :message => 'Not authorized as an administrator.'
     @assignment = Assignment.find(params[:id])
   end
 
