@@ -21,7 +21,7 @@ db/*.sqlite3
 /tmp/*
 
 # course content
-**/content
+**/evening.html.erb
 
 # various artifacts
 **.war
