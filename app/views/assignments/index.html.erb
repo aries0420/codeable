@@ -18,10 +18,7 @@
     <td><%= assignment.description %></td>
     <td><%= link_to 'Link', assignment.link %></td>
     <td><%= link_to 'Show', assignment %></td>
-
-    <%= puts "hello" %>
     <td><%= link_to 'Edit', edit_assignment_path(assignment) %></td>
-    <%# end %>
     <td><%= link_to 'Destroy', assignment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
