@@ -3,6 +3,13 @@
   <li><%= link_to 'Contact', new_contact_path %></li>
   <% if user_signed_in? %>
     <li>
+      <% if current_user.has_role? :admin %>
+        <%= link_to 'Assignments', admin_assignments_path %>
+      <% else %>
+        <%= link_to 'Assignments', assignments_path %>
+      <% end %>
+    </li>
+    <li>
     <%= link_to 'Account', edit_user_registration_path %>
     </li>
     <% if current_user.has_role? :admin %>
