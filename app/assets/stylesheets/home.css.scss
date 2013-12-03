@@ -71,17 +71,18 @@ html, body {
 .header-btn p {
   text-align: center;
   margin-top: 14px;
-  color: #ddd;
+  color: #eee;
   font-size: 1.8em;
   font-weight: 200;
 }
 
 .header-btn:hover {
   border: 2px solid #fff;
+  text-decoration: none;
 }
 
 .header-btn p:hover {
-  color: #fff;
+  text-decoration: none;
 }
 
 
