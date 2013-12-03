@@ -1,3 +1,94 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/******* GLOBAL *******/
+html, body {
+  height: 100%;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/******* NAVBAR *******/
+
+.navbar-inner {
+  background-color: #fff; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  height: 50px;
+}
+
+.navbar-inner .brand {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-top: 5px;
+  color: #444;
+}
+
+.navbar-inner .nav {
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+
+
+
+/******* INTRO *******/
+
+.header {
+  display: table;
+  height: 400px;
+  width: 100%;
+  top: -10px;
+  position: relative;
+  background: url(../assets/city.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #555;
+}
+
+.header h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  font-size: 3em;
+  margin-top: 150px;
+}
+
+.header-btn {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+  border: 2px solid #ddd;
+  position: relative;
+  top: 40px;
+}
+
+.header-btn p {
+  text-align: center;
+  margin-top: 14px;
+  color: #ddd;
+  font-size: 1.8em;
+  font-weight: 200;
+}
+
+.header-btn:hover {
+  border: 2px solid #fff;
+}
+
+.header-btn p:hover {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
