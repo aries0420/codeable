@@ -1,5 +1,6 @@
 Codeable::Application.routes.draw do
 
+  resources :contacts, only: [:new, :create]
   resources :assignments
 
   namespace :admin do
