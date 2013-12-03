@@ -91,35 +91,34 @@ html, body {
 /******* INTRO *******/
 .intro {
   width: 100%;
-  height: 250px;
+  height: 200px;
   background-color: #222;
   position: relative;
   top: -10px;
 }
 
-.intro-box {
+.desc {
+  width: 70%;
   margin: 0 auto;
-  width: 400px;
-  height: 70px;
-  border: 4px solid white;
+  top: 12px;
   position: relative;
-  top: 80px;
 }
 
-.intro-box p {
+.intro p {
   text-align: center;
-  margin-top: 25px;
+  top: 30px;
   position: relative;
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #fff;
+  font-weight: 200;
+  line-height: 1.8em;
 }
 
-.intro img {
-  margin: 0 auto;
+.intro h2 {
   position: relative;
-  top: 95px;
-  display: block;
-
+  color: #fff;
+  text-align: center;
+  font-weight: 200;
 }
 
 
@@ -241,6 +240,7 @@ html, body {
   height: 370px;
   border-radius: 0px;
   background-color: #eee;
+  max-width: 220px;
 }
 
 .p-column:hover {
@@ -260,7 +260,7 @@ html, body {
   top: -10px;
   position: relative;
   height: 70px;
-  border-bottom: 3px solid #777;
+  border-bottom: 3px solid #555;
   box-shadow: 0px 3px 10px  rgba(0,0,0,0.3);
   background-image: url('../assets/grid.png');
 }
@@ -306,9 +306,9 @@ html, body {
 
 .pricing h4 {
   font-weight: 200;
-  margin-top: 20px;
+  margin-top: 12px;
   position: relative;
-
+  margin-bottom: 15px;
 }
 
 
