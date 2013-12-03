@@ -1,7 +1,81 @@
 <div id="welcome" class="header">
   <h3>Access world-class code curriculum from anywhere.</h3>
- <div class="header-btn">
-    <p>Get started</p>
+  <div class="headernav">
+    <a href="#info-1">Get started</a>
   </div>
 </div>
+
+<!--  <div class="intro">
+  <div class="desc">
+    <p>Starting a new direction toward programming can be an overwhelming task. We've created a guide to get you from zero to profiency that you can follow wherever you are and at your own pace. You're also backed by the Code Fellows Alumni community. Let's get started...</p>
+    <h2>LEARN / ASK / CODE</h2>
+  </div>
+</div> -->
+
+<div class="info-1">
+  <img src="../assets/a-im.png" alt='ruby'>
+  <div class="info-content">
+    <h3>Learn Ruby on Rails</h3>
+    <p>Learn from over 1000 videos created by our expert teachers on web design, coding, business, and much more. Our library is continually refreshed with the latest on web technology so you'll never fall behind.</p>
+  </div>
+</div>
+
+<div class="info-2">
+  <div class="info-content2">
+    <h3>Access From Anywhere</h3>
+    <p>Learn from over 1000 videos created by our expert teachers on web design, coding, business, and much more. Our library is continually refreshed with the latest on web technology so you'll never fall behind.</p>
+  </div>
+  <img src="../assets/a-mb.png" alt='macbook'>
+</div>
+
+<div class="info-3">
+  <img src="../assets/a-br.png" alt='ruby'>
+  <div class="info-content">
+    <h3>Learn At Your Own Pace</h3>
+    <p>Learn from over 1000 videos created by our expert teachers on web design, coding, business, and much more. Our library is continually refreshed with the latest on web technology so you'll never fall behind.</p>
+  </div>
+</div>
+
+<div class="plans">
+  <h1>Ready? Let's get started.</h1>
+  <div class="pricing">
+    <div class="span3 p-column">
+      <div class="p-title"><h2>Evening</h2></div>
+      <ul class="unstyled">
+        <li>TBD</li>
+      </ul>
+      <h3>$19</h3>
+      <h4>/month</h4>
+      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'evening'), :class => 'btn btn-default btn-lg' %>
+    </div>
+    <div class="span3 p-column">
+      <div class="p-title2"><h2>Silver</h2></div>
+      <ul class="unstyled">
+        <li>TBD</li>
+      </ul>
+      <h3>$29</h3>
+      <h4>/month</h4>
+      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'silver'), :class => 'btn btn-default btn-lg' %>
+    </div>
+    <div class="span3 p-column">
+      <div class="p-title3"><h2>Gold</h2></div>
+      <ul class="unstyled">
+        <li>TBD</li>
+      </ul>
+      <h3>$49</h3>
+      <h4>/month</h4>
+      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'gold'), :class => 'btn btn-default btn-lg' %>
+    </div>
+  </div>
+</div>
+
+<div class="contact">
+  <p>Questions or comments? Our alumni network is here to help.</p>
+  <div class="contact-btn">
+    <a href="#contact">Contact Us</a>
+  </div>
+</div>
+
+
+
 

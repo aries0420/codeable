@@ -6,6 +6,7 @@
 html, body {
   height: 100%;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  background-color: #fff;
 }
 
 
@@ -35,7 +36,7 @@ html, body {
 
 
 
-/******* INTRO *******/
+/******* HEADER *******/
 
 .header {
   display: table;
@@ -59,35 +60,335 @@ html, body {
   margin-top: 150px;
 }
 
-.header-btn {
-  width: 250px;
+.headernav {
   margin: 0 auto;
-  height: 50px;
-  border: 2px solid #ddd;
-  position: relative;
-  top: 40px;
+  text-align: center;
 }
 
-.header-btn p {
-  text-align: center;
-  margin-top: 14px;
-  color: #eee;
+.header a {
+  position: relative;
+  padding: 12px 70px;
+  border: 3px solid #ddd;
+  top: 40px;
+  color: #ddd;
   font-size: 1.8em;
+  font-weight: 200;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.header a:hover {
+  border: 3px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+/******* INTRO *******/
+.intro {
+  width: 100%;
+  height: 200px;
+  background-color: #222;
+  position: relative;
+  top: -10px;
+}
+
+.desc {
+  width: 70%;
+  margin: 0 auto;
+  top: 12px;
+  position: relative;
+}
+
+.intro p {
+  text-align: center;
+  top: 30px;
+  position: relative;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 200;
+  line-height: 1.8em;
+}
+
+.intro h2 {
+  position: relative;
+  color: #fff;
+  text-align: center;
   font-weight: 200;
 }
 
-.header-btn:hover {
-  border: 2px solid #fff;
-  text-decoration: none;
+
+
+/******* INFO-1 *******/
+
+.info-1 {
+  width: 60%;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  display: block;
+  height: 350px;
 }
 
-.header-btn p:hover {
-  text-decoration: none;
+.info-1 img {
+  float: left;
+}
+
+.info-content {
+  float: right;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.info-content p {
+  color: #999;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+
+
+/******* INFO-2 *******/
+
+.info-2 {
+  width: 60%;
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
+  display: block;
+  height: 200px;
+}
+
+.info-content2 {
+  float: left;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.info-content2 p {
+  color: #999;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.info-2 img {
+  float: right;
+}
+
+
+
+/******* INFO-3 *******/
+
+.info-3 {
+  width: 60%;
+  position: relative;
+  top: 210px;
+  margin: 0 auto;
+  display: block;
+  height: 350px;
+}
+
+.info-3 img {
+  float: left;
+}
+
+.info-content {
+  float: right;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.info-content p {
+  color: #999;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+
+/******* PLANS *******/
+
+.plans {
+  width: 100%;
+  height: 600px;
+  background-color: #333;
+  top: 250px;
+  position: relative;
+}
+
+.plans h1 {
+  color: #fff;
+  top: 60px;
+  position: relative;
+  font-size: 3em;
+  font-weight: 200;
+}
+
+.pricing {
+  position: relative;
+  vertical-align: center;
+  display: block;
+  margin: 0 auto;
+  top: 110px;
+  width: 65%;
+}
+
+.p-column {
+  height: 370px;
+  border-radius: 0px;
+  background-color: #eee;
+  max-width: 220px;
+}
+
+.p-column:hover {
+  /*-webkit-transition: box-shadow 0.3s;*/
+  box-shadow: 0px 15px 10px -6px rgba(0,0,0,0.3);
+  -webkit-transform: translate(-2px,-2px);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.p-title {
+  width: 100%;
+  background-color: #222;
+  top: -10px;
+  position: relative;
+  height: 70px;
+  border-bottom: 3px solid #555;
+  box-shadow: 0px 3px 10px  rgba(0,0,0,0.3);
+  background-image: url('../assets/grid.png');
+}
+
+.p-title2 {
+  width: 100%;
+  background-color: #222;
+  top: -10px;
+  position: relative;
+  height: 70px;
+  border-bottom: 3px solid #eee;
+  box-shadow: 0px 3px 10px  rgba(0,0,0,0.3);
+  background-image: url('../assets/grid.png');
+}
+
+.p-title3 {
+  width: 100%;
+  background-color: #222;
+  top: -10px;
+  position: relative;
+  height: 70px;
+  border-bottom: 3px solid #e4c360;
+  box-shadow: 0px 3px 10px  rgba(0,0,0,0.3);
+  background-image: url('../assets/grid.png');
+}
+
+.pricing h2 {
+  font-weight: 200;
+  top: 15px;
+  position: relative;
+  color: #333;
+}
+
+.pricing h3 {
+  font-weight: 600;
+  position: relative;
+  margin-top: 100px;
+  font-size: 4.5em;
+  background-clip: text;
+  color: #444;
+  text-shadow: 0px 2px 3px #fff;
+}
+
+.pricing h4 {
+  font-weight: 200;
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 15px;
 }
 
 
 
 
+/******* CONTACT *******/
+
+.contact {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  top: 250px;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 200;
+  color: #333;
+  position: relative;
+  top: 100px;
+}
+
+.contact-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-btn a {
+  position: relative;
+  padding: 12px 70px;
+  border: 3px solid #555;
+  top: 40px;
+  color: #555;
+  font-size: 1.8em;
+  font-weight: 200;
+  margin: 0 auto;
+  text-align: center;
+  top: 140px;
+}
+
+.contact-btn a:hover {
+  border: 3px solid #111;
+  color: #111;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.header a:hover {
+  border: 3px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+
+/******* FOOTER *******/
+
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: #333;
+  top: 240px;
+  position: relative;
+}
+
+footer p {
+  color: #eee;
+  text-align: center;
+  position: relative;
+  top: 70px;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+footer p:last-child {
+  color: #888;
+  font-size: 1.1em;
+}
 
 
 
