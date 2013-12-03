@@ -6,6 +6,14 @@
 </p>
 
 <p>
+  <b>Course:</b>
+  <% if @assignment.assignment_id == 2 %><%= "Silver" %>
+  <% elsif @assignment.assignment_id == 3 %><%= "Gold" %>
+  <% elsif @assignment.assignment_id == 4 %><%= "Evening" %>
+  <% end %>
+</p>
+
+<p>
   <b>Category:</b>
   <%= @assignment.category %>
 </p>
