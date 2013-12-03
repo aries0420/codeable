@@ -4,6 +4,7 @@
 <% @assignments.each do |assignment| %>
   <tr>
     <td><%= link_to assignment.title, assignment %></td>
+    <td><%= assignment.category %></td>
   </tr>
 <% end %>
 </table>
