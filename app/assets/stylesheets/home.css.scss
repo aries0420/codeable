@@ -6,7 +6,7 @@
 html, body {
   height: 100%;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  /*background-image: url('../assets/sos.png');*/
+  background-color: #fff;
 }
 
 
@@ -80,6 +80,7 @@ html, body {
 .header-btn:hover {
   border: 3px solid #fff;
   text-decoration: none;
+  -webkit-transition: border 0.3s;
 }
 
 .header-btn p:hover {
@@ -310,6 +311,68 @@ html, body {
   position: relative;
   margin-bottom: 15px;
 }
+
+
+
+
+/******* CONTACT *******/
+
+.contact {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  top: 250px;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 200;
+  color: #333;
+  position: relative;
+  top: 100px;
+}
+
+.contact-btn {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+  border: 3px solid #555;
+  position: relative;
+  top: 130px;
+}
+
+.contact-btn p {
+  text-align: center;
+  top: 12px;
+  color: #333;
+  font-size: 1.8em;
+  font-weight: 200;
+  position: relative;
+}
+
+.contact-btn:hover {
+  border: 3px solid #111;
+  text-decoration: none;
+  -webkit-transition: border 0.3s;
+}
+
+.contact-btn p:hover {
+  text-decoration: none;
+}
+
+
+/******* FOOTER *******/
+
+footer {
+  width: 100%;
+  height: 190px;
+  background-color: #333;
+}
+
+
+
 
 
 
