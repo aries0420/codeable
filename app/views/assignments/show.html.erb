@@ -1,6 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <b>Week:</b>
+  <%= @assignment.week %>
+</p>
+
+<p>
   <b>Category:</b>
   <%= @assignment.category %>
 </p>
@@ -18,6 +23,11 @@
 <p>
   <b>Link:</b>
   <%= @assignment.link %>
+</p>
+
+<p>
+  <b>Note:</b>
+  <%= @assignment.note %>
 </p>
 
 <%= link_to 'Back', assignments_path %>
