@@ -1,8 +1,9 @@
-<h1>Listing assignments</h1>
+<h1>Course Assignments</h1>
 
 <table>
 <% @assignments.each do |assignment| %>
   <tr>
+    <td><%= assignment.week %></td>
     <td><%= assignment.category %></td>
     <td><%= assignment.title %></td>
     <td><%= assignment.description %></td>

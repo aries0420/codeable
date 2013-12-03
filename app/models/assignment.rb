@@ -1,3 +1,3 @@
 class Assignment < ActiveRecord::Base
-  attr_accessible :category, :description, :link, :title, :assignment_id
+  attr_accessible :category, :description, :link, :title, :assignment_id, :week, :note
 end
