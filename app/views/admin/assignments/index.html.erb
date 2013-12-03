@@ -7,7 +7,10 @@
     <td><%= assignment.title %></td>
     <td><%= assignment.description %></td>
     <td><%= link_to 'Link', assignment.link %></td>
-    <td><%= assignment.assignment_id %></td>
+    <td><% if assignment.assignment_id == 2 %><%= "Silver" %>
+        <% elsif assignment.assignment_id == 3 %><%= "Gold" %>
+        <% elsif assignment.assignment_id == 4 %><%= "Evening" %>
+    <% end %></td>
     <td><%= link_to 'Edit', edit_admin_assignment_path(assignment) %></td>
     <td><%= link_to 'Delete', assignment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
