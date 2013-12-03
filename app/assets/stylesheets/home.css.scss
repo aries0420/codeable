@@ -60,32 +60,31 @@ html, body {
   margin-top: 150px;
 }
 
-.header-btn {
-  width: 250px;
+.headernav {
   margin: 0 auto;
-  height: 50px;
-  border: 3px solid #ddd;
-  position: relative;
-  top: 40px;
+  text-align: center;
 }
 
-.header-btn p {
-  text-align: center;
-  margin-top: 14px;
-  color: #eee;
+.header a {
+  position: relative;
+  padding: 12px 70px;
+  border: 3px solid #ddd;
+  top: 40px;
+  color: #ddd;
   font-size: 1.8em;
   font-weight: 200;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.header-btn:hover {
+
+.header a:hover {
   border: 3px solid #fff;
   text-decoration: none;
-  -webkit-transition: border 0.3s;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 
-.header-btn p:hover {
-  text-decoration: none;
-}
 
 
 
@@ -335,31 +334,49 @@ html, body {
 }
 
 .contact-btn {
-  width: 250px;
   margin: 0 auto;
-  height: 50px;
-  border: 3px solid #555;
-  position: relative;
-  top: 130px;
+  text-align: center;
 }
 
-.contact-btn p {
-  text-align: center;
-  top: 12px;
-  color: #333;
+.contact-btn a {
+  position: relative;
+  padding: 12px 70px;
+  border: 3px solid #444;
+  top: 40px;
+  color: #444;
   font-size: 1.8em;
   font-weight: 200;
-  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  top: 140px;
 }
 
-.contact-btn:hover {
+.contact-btn a:hover {
   border: 3px solid #111;
+  color: #111;
   text-decoration: none;
-  -webkit-transition: border 0.3s;
+  transition: all 0.2s ease-in-out;
 }
 
 .contact-btn p:hover {
   text-decoration: none;
+}
+
+.contact-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-btn a {
+
+}
+
+
+.header a:hover {
+  border: 3px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 
 
@@ -374,7 +391,7 @@ footer {
 }
 
 footer p {
-  color: #fff;
+  color: #eee;
   text-align: center;
   position: relative;
   top: 70px;
@@ -384,6 +401,7 @@ footer p {
 
 footer p:last-child {
   color: #888;
+  font-size: 1.1em;
 }
 
 
