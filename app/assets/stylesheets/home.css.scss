@@ -341,9 +341,9 @@ html, body {
 .contact-btn a {
   position: relative;
   padding: 12px 70px;
-  border: 3px solid #444;
+  border: 3px solid #555;
   top: 40px;
-  color: #444;
+  color: #555;
   font-size: 1.8em;
   font-weight: 200;
   margin: 0 auto;
@@ -357,20 +357,6 @@ html, body {
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
-
-.contact-btn p:hover {
-  text-decoration: none;
-}
-
-.contact-btn {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.contact-btn a {
-
-}
-
 
 .header a:hover {
   border: 3px solid #fff;
