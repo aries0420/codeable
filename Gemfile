@@ -8,10 +8,6 @@ gem 'rails', '3.2.13'
 # For deployment on Heroku
 gem "heroku"
 
-group :development, :test do
-  gem 'sqlite3'
-end
-
 group :production do
   gem 'pg'
   gem 'thin'
@@ -28,7 +24,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
 gem "database_cleaner", ">= 1.0.0.RC1", :group => :test
 gem "email_spec", ">= 1.4.0", :group => :test
 gem "cucumber-rails", ">= 1.3.1", :group => :test, :require => false
@@ -49,6 +44,16 @@ gem "figaro", ">= 0.6.3"
 gem "better_errors", ">= 0.7.2", :group => :development
 gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri_19, :rbx]
 gem "seed_dump", "~> 0.5.3"
+
+gem "minitest-rails"
+
+group :development, :test do
+  gem 'sqlite3'
+  gem "minitest-rails-capybara"
+  gem "minitest-focus"
+  gem "minitest-colorize"
+  gem 'simplecov', :require => false, :group => :test
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
