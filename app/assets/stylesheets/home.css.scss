@@ -355,7 +355,7 @@ html, body {
   color: #111;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.1);
 }
 
 
@@ -514,9 +514,8 @@ footer p:last-child {
   color: #888;
 }
 
-.rm-btn {
-  margin: 0 auto;
-  text-align: center;
+.signin-btn {
+  margin-top: 5px;
 }
 
 
