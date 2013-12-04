@@ -404,6 +404,7 @@ footer p:last-child {
   font-weight: 200;
   left: 25%;
   color: #444;
+  top: 70px;
 }
 
 .signup h2 {
@@ -435,6 +436,8 @@ footer p:last-child {
 .f-clear {
   position: relative;
   height: 300px;
+  clear: both;
+  /*background-color: #222;*/
 }
 
 
@@ -519,6 +522,43 @@ footer p:last-child {
 }
 
 
+
+
+
+/******* ACCOUNT SETTINGS *******/
+
+.acct {
+  position: absolute;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+  width: 680px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  font-weight: 200;
+  left: 20%;
+  color: #444;
+  top: 70px;
+}
+
+.acct h2 {
+  font-weight: 200;
+  color: #444;
+}
+
+.acct h3 {
+  font-weight: 200;
+  color: #444;
+  margin-bottom: 0px;
+}
+
+.acct-left {
+  float: left;
+}
+
+.acct-right {
+  float: right;
+}
 
 
 
