@@ -603,14 +603,66 @@ footer a:hover {
   top: -280px;
   position: relative;
   font-weight: 200;
+  font-size: 1.2em;
 }
 
 .assign h1 {
   font-weight: 200;
   color: #444;
+  position: relative;
+  margin-bottom: 35px;
 }
 
+.assign td {
+  padding: 5px;
+}
 
+.assign td a:hover {
+  text-decoration: none;
+}
+
+.assign td:first-child {
+  font-weight: 400;
+}
+
+.new-assign-link {
+  position: relative;
+  top: 30px;
+  left: 6px;
+
+}
+
+.new-assign-link:hover {
+  text-decoration: none;
+}
+
+.assign-edit-links {
+  color: #888;
+  font-size: .9em;
+}
+
+/* show page - admin */
+.assign h2 {
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.div-links {
+  position: relative;
+  top: 20px;
+}
+
+/* new assignment - admin */
+
+.link-ca {
+  position: relative;
+  margin-top: 20px;
+}
+
+/* users index - admin */
+.assign th {
+  font-weight: 400;
+}
 
 
 

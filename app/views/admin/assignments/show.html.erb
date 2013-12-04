@@ -1,35 +1,38 @@
-<p>
-  <h2><b><%= @assignment.week %></b></h2>
-</p>
+<div class="f-clear"></div>
+<div class="assign">
 
-<p>
-  <b>Course:</b>
-  <% if @assignment.assignment_id == 2 %><%= "Silver" %>
-  <% elsif @assignment.assignment_id == 3 %><%= "Gold" %>
-  <% elsif @assignment.assignment_id == 4 %><%= "Evening" %>
-  <% end %>
-</p>
+  <h2><%= @assignment.week %></h2>
 
-<p>
-  <b>Category:</b>
-  <%= @assignment.category %>
-</p>
+  <p>
+    <b>Course:</b>
+    <% if @assignment.assignment_id == 2 %><%= "Silver" %>
+    <% elsif @assignment.assignment_id == 3 %><%= "Gold" %>
+    <% elsif @assignment.assignment_id == 4 %><%= "Evening" %>
+    <% end %>
+  </p>
 
-<p>
-  <b>Title:</b>
-  <%= @assignment.title %>
-</p>
+  <p>
+    <b>Category:</b>
+    <%= @assignment.category %>
+  </p>
 
-<p>
-  <b>Description:</b>
-  <%= @assignment.description %>
-</p>
+  <p>
+    <b>Title:</b>
+    <%= @assignment.title %>
+  </p>
 
-<p>
-  <b>Link:</b>
-  <%= @assignment.link %>
-</p>
+  <p>
+    <b>Description:</b>
+    <%= @assignment.description %>
+  </p>
 
+  <p>
+    <b>Link:</b>
+    <%= @assignment.link %>
+  </p>
 
-<%= link_to 'Edit', edit_admin_assignment_path(@assignment) %> |
-<%= link_to 'Back', admin_assignments_path %>
+  <div class="div-links">
+    <%= link_to 'Edit', edit_admin_assignment_path(@assignment) %> |
+    <%= link_to 'Back', admin_assignments_path %>
+  </div>
+</div>
