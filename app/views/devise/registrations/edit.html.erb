@@ -41,10 +41,10 @@
           <h3>Change Plan</h3>
         </div>
         <div class="modal-body">
-          <%= f.input :role_ids, :collection => Role.all.delete_if {|i| i.name == 'admin'}, :as => :radio_buttons, :label_method => lambda {|t| t.name.titleize}, :label => false, :item_wrapper_class => 'inline' %>
+          <%= f.input :role_ids, :collection => Role.all.delete_if {|i| i.name == 'admin'}, :as => :radio_buttons, :label_method => lambda {|t| t.name.titleize}, :label => false, :item_wrapper_class => 'inline', :class => "modal-btns" %>
         </div>
         <div class="modal-footer">
-          <%= f.submit "Change Course", :class => "btn btn-primary" %>
+          <%= f.submit "Change Course", :class => "btn btn-danger" %>
           <a class="btn" data-dismiss="modal" href="#">Close</a>
         </div>
       <% end %>
@@ -75,7 +75,7 @@
           <%= f.hidden_field :stripe_token %>
         </div>
         <div class="modal-footer">
-          <%= f.submit "Change Credit Card", :class => "btn btn-primary" %>
+          <%= f.submit "Change Credit Card", :class => "btn btn-danger" %>
           <a class="btn" data-dismiss="modal" href="#">Close</a>
         </div>
       <% end %>
