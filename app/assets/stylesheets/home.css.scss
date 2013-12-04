@@ -44,7 +44,7 @@ html, body {
   width: 100%;
   top: -10px;
   position: relative;
-  background: url(../assets/city.jpg) no-repeat center center fixed;
+  background: url(../assets/desk3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,23 +68,22 @@ html, body {
 .header a {
   position: relative;
   padding: 12px 70px;
-  border: 3px solid #ddd;
+  /*border: 1px solid #ddd;*/
   top: 40px;
-  color: #ddd;
+  color: #444;
   font-size: 1.8em;
   font-weight: 200;
   margin: 0 auto;
   text-align: center;
+  background-color: rgba(255,255,255,0.8);
 }
-
 
 .header a:hover {
-  border: 3px solid #fff;
   text-decoration: none;
-  color: #fff;
+  color: #333;
+  background-color: rgba(255,255,255,0.9);
   transition: all 0.2s ease-in-out;
 }
-
 
 
 
@@ -186,7 +185,7 @@ html, body {
 .info-3 {
   width: 60%;
   position: relative;
-  top: 210px;
+  top: 240px;
   margin: 0 auto;
   display: block;
   height: 350px;
@@ -358,12 +357,6 @@ html, body {
   transition: all 0.2s ease-in-out;
 }
 
-.header a:hover {
-  border: 3px solid #fff;
-  text-decoration: none;
-  color: #fff;
-  transition: all 0.2s ease-in-out;
-}
 
 
 /******* FOOTER *******/
