@@ -1,10 +1,15 @@
-<h1>Course Assignments</h1>
+<div class="f-clear"></div>
+<div class="assign">
+  <h1>Course Assignments</h1>
 
-<table>
-<% @assignments.each do |assignment| %>
-  <tr>
-    <td><%= link_to assignment.title, assignment %></td>
-    <td><%= assignment.category %></td>
-  </tr>
-<% end %>
-</table>
+  <table>
+  <% @assignments.each do |assignment| %>
+    <tr>
+      <td><%= link_to assignment.title, assignment %></td>
+      <td><%= assignment.category %></td>
+    </tr>
+  <% end %>
+  </table>
+</div>
+
+
