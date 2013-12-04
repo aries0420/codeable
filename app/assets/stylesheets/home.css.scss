@@ -384,7 +384,14 @@ footer p:last-child {
   font-size: 1.1em;
 }
 
+footer a {
+  color: #eee;
+}
 
+footer a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
 
 
 
