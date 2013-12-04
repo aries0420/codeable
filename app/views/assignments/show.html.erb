@@ -1,30 +1,33 @@
+<div class="f-clear"></div>
+<div class="assign">
 <p>
-  <h2><b><%= @assignment.week %></b></h2>
+  <span class="a-row2"><%= @assignment.week %></span>
 </p>
 
 <p>
   <b>Category:</b>
-  <%= @assignment.category %>
+  <span class="a-row2"><%= @assignment.category %></span>
 </p>
 
 <p>
   <b>Title:</b>
-  <%= @assignment.title %>
+  <span class="a-row2"><%= @assignment.title %></span>
 </p>
 
 <p>
   <b>Description:</b>
-  <%= @assignment.description %>
+  <span class="a-row2"><%= @assignment.description %></span>
 </p>
 
 <p>
   <b>Link:</b>
-  <%= @assignment.link %>
+  <span class="a-row2"><%= @assignment.link %></span>
 </p>
 
 <p>
   <b>Note:</b>
-  <%= @assignment.note %>
+  <span class="a-row2"><%= @assignment.note %></span>
 </p>
 
 <%= link_to 'Back', assignments_path %>
+</div>
