@@ -10,10 +10,10 @@
 
 GMAIL_USERNAME: "acrortest@gmail.com"
 GMAIL_PASSWORD: "acrortestacrortest"
-ADMIN_NAME: Admin User
+ADMIN_NAME: Admin
 ADMIN_EMAIL: user@example.com
 ADMIN_PASSWORD: password
-ROLES: [admin, evening, silver, gold]
+ROLES: [admin, silver, gold, evening]
 STRIPE_API_KEY: "sk_test_6BWrKf39973Q8WbLt5Nvoq8p"
 STRIPE_PUBLIC_KEY: "pk_test_IUUOqySM3NMTpv2bBrS8AkvM"
 SECRET_TOKEN: "18940ff4ea3f4cde44e2b37489ed6eafeeeb54d5acd9c185b5b6d676c542421c4f6606a020e8bdf725d26538a3c48f338e5ab58b10cfdc8aa467a0aaea9ac44f"
