@@ -3,11 +3,6 @@
 #
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 #
-# The original version of this file is found here:
-# https://github.com/RailsApps/rails-composer/blob/master/files/gitignore.txt
-#
-# Corrections? Improvements? Create a GitHub issue:
-# http://github.com/RailsApps/rails-composer/issues
 #----------------------------------------------------------------------------
 
 # bundler state
@@ -34,6 +29,7 @@ db/*.sqlite3
 .ruby-gemset
 /db/*.javadb/
 /db/*.sqlite3
+/db/seeds.rb
 /doc/api/
 /doc/app/
 /doc/features.html
@@ -77,3 +73,6 @@ pickle-email-*.html
 
 # Ignore application configuration
 /config/application.yml
+
+# Ignore coverage folder
+/coverage
