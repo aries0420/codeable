@@ -10,11 +10,14 @@ class ApplicationController < ActionController::Base
       when 'admin'
         users_path
       when 'evening'
-        content_evening_path
+        assignments_path
+        # content_evening_path
       when 'silver'
-        content_silver_path
+        assignments_path
+        # content_silver_path
       when 'gold'
-        content_gold_path
+        assignments_path
+        # content_gold_path
       else
         root_path
     end
