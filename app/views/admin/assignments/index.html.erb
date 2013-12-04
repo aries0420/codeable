@@ -5,9 +5,7 @@
   <tr>
     <td><%= assignment.week %></td>
     <td><%= assignment.category %></td>
-    <td><%= assignment.title %></td>
-    <td><%= assignment.description %></td>
-    <td><%= link_to 'Link', assignment.link %></td>
+    <td><%= link_to assignment.title, [:admin, assignment] %></td>
     <td><% if assignment.assignment_id == 2 %><%= "Silver" %>
         <% elsif assignment.assignment_id == 3 %><%= "Gold" %>
         <% elsif assignment.assignment_id == 4 %><%= "Evening" %>
