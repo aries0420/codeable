@@ -612,16 +612,22 @@ footer a:hover {
 
 
 
+
+
 /******* CONTACT-CREATE *******/
 
 .contact-c {
   text-align: center;
   font-weight: 200;
+  position: relative;
+  margin-top: 55px;
 }
 
 .contact-c h1 {
   font-weight: 200;
   color: #444;
+  position: relative;
+  margin-top: 20px;
 }
 
 .contact-c p {
@@ -633,7 +639,6 @@ footer a:hover {
 
 .cc-clear {
   height: 130px;
-
 }
 
 
