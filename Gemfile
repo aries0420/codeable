@@ -26,11 +26,11 @@ end
 gem 'jquery-rails'
 gem "database_cleaner", ">= 1.0.0.RC1", :group => :test
 gem "email_spec", ">= 1.4.0", :group => :test
-gem "cucumber-rails", ">= 1.3.1", :group => :test, :require => false
+# gem "cucumber-rails", ">= 1.3.1", :group => :test, :require => false
 gem "launchy", ">= 2.2.0", :group => :test
 gem "capybara", ">= 2.0.3", :group => :test
 gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
-gem "teaspoon", ">= 0.7.4", :group => [:development, :test]
+# gem "teaspoon", ">= 0.7.4", :group => [:development, :test]
 gem "bootstrap-sass", ">= 2.3.0.0"
 gem "devise", ">= 2.2.3"
 gem "cancan", ">= 1.6.9"
@@ -45,13 +45,12 @@ gem "better_errors", ">= 0.7.2", :group => :development
 gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri_19, :rbx]
 gem "seed_dump", "~> 0.5.3"
 
-gem "minitest-rails"
-
 group :development, :test do
   gem 'sqlite3'
   gem "minitest-rails-capybara"
   gem "minitest-focus"
   gem "minitest-colorize"
+  gem "minitest-rails"
   gem 'simplecov', :require => false, :group => :test
 end
 
