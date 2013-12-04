@@ -1,10 +1,8 @@
 class AssignmentsController < ApplicationController
    before_filter :authenticate_user!
-  # before_filter :authorize!, only: [:new, :edit, :update, :destroy]
   # GET /assignments
   # GET /assignments.json
   def index
-    #authorize! :index, @user, :message => 'Not authorized as an administrator.'
     @assignments = Assignment.all
 
     respond_to do |format|
