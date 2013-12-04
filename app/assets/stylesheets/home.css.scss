@@ -296,7 +296,7 @@ html, body {
 .pricing h3 {
   font-weight: 600;
   position: relative;
-  margin-top: 100px;
+  margin-top: 30px;
   font-size: 4.5em;
   background-clip: text;
   color: #444;
@@ -309,6 +309,27 @@ html, body {
   position: relative;
   margin-bottom: 15px;
 }
+
+.features-list {
+  text-align: left;
+  list-style: none;
+  right: 8px;
+  position: relative;
+  line-height: 1.5em;
+}
+
+.features-list li {
+  margin: 12px 0;
+}
+
+.course-title {
+  font-weight: 400;
+  font-size: 1.3em;
+  position: relative;
+  margin-top: 5px;
+  color: #555;
+}
+
 
 
 

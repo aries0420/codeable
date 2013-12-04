@@ -41,30 +41,39 @@
   <div class="pricing">
     <div class="span3 p-column">
       <div class="p-title"><h2>Evening</h2></div>
-      <ul class="unstyled">
-        <li><b>Beginner's Course:</b><br>Access to 28 assignments<br>Comprehensive resource library<br>of readings and videos</li>
+      <p class="course-title"><b>Beginner's Course</b></p>
+      <ul class="features-list">
+        <li>Access to 28 assignments</li>
+        <li>Comprehensive resource library</li>
+        <li>Readings and videos</li>
       </ul>
       <h3>$19</h3>
       <h4>/month</h4>
-      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'evening'), :class => 'btn btn-default btn-lg' %>
+      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'evening'), :class => 'btn btn-danger btn-lg' %>
     </div>
     <div class="span3 p-column">
       <div class="p-title2"><h2>Silver</h2></div>
-      <ul class="unstyled">
-        <li><b>Intermediate's Course:</b><br>Access to silver assignments<br>Build out portfolio page<br>and one complete app</li>
+      <p class="course-title"><b>Intermediate Course</b></p>
+      <ul class="features-list">
+        <li>Access to silver assignments</li>
+        <li>Build out your own portfolio</li>
+        <li>One complete app</li>
       </ul>
       <h3>$29</h3>
       <h4>/month</h4>
-      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'silver'), :class => 'btn btn-default btn-lg' %>
+      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'silver'), :class => 'btn btn-danger btn-lg' %>
     </div>
     <div class="span3 p-column">
       <div class="p-title3"><h2>Gold</h2></div>
-      <ul class="unstyled">
-        <li><b>Advanced's Course:</b><br>Access to gold assignments<br>Career-driven development</li>
+      <p class="course-title"><b>Advanced Course</b></p>
+      <ul class="features-list">
+        <li>Access to gold assignments</li>
+        <li>Career-driven development</li>
+        <li>Interview resources</li>
       </ul>
       <h3>$49</h3>
       <h4>/month</h4>
-      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'gold'), :class => 'btn btn-default btn-lg' %>
+      <%= link_to 'Subscribe', new_user_registration_path(:plan => 'gold'), :class => 'btn btn-danger btn-lg' %>
     </div>
   </div>
 </div>
