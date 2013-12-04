@@ -18,5 +18,3 @@ puts 'user: ' << user.name
 user.add_role :admin
 user2 = User.find_or_create_by_email :name => 'Evening User', :email => 'user2@example.com', :password => 'password', :password_confirmation => 'password'
 user2.add_role :evening
-
-puts 'test'
