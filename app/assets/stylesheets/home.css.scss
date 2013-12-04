@@ -411,6 +411,7 @@ footer a:hover {
   font-weight: 200;
   left: 25%;
   color: #444;
+  top: 70px;
 }
 
 .signup h2 {
@@ -442,6 +443,8 @@ footer a:hover {
 .f-clear {
   position: relative;
   height: 300px;
+  clear: both;
+  /*background-color: #222;*/
 }
 
 
@@ -524,6 +527,100 @@ footer a:hover {
 .signin-btn {
   margin-top: 5px;
 }
+
+
+
+
+
+/******* ACCOUNT SETTINGS *******/
+
+.acct {
+  position: absolute;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+  width: 680px;
+  font-weight: 200;
+  left: 20%;
+  color: #444;
+  top: 70px;
+}
+
+.a-clear {
+  height: 70px;
+}
+
+.acct h2 {
+  font-weight: 200;
+  color: #444;
+}
+
+.acct h3 {
+  font-weight: 200;
+  color: #444;
+  margin-bottom: 0px;
+}
+
+.acct-left {
+  float: left;
+}
+
+.acct-right {
+  float: right;
+}
+
+
+
+
+
+/******* ASSIGNMENTS *******/
+
+.assign {
+  width: 80%;
+  color: #444;
+  margin: 0 auto;
+  top: -280px;
+  position: relative;
+  font-weight: 200;
+}
+
+.assign h1 {
+  font-weight: 200;
+  color: #444;
+}
+
+
+
+/******* CONTACT-CREATE *******/
+
+.contact-c {
+  text-align: center;
+  font-weight: 200;
+}
+
+.contact-c h1 {
+  font-weight: 200;
+  color: #444;
+}
+
+.contact-c p {
+  font-size: 1.6em;
+  color: #888;
+  top: 5px;
+  position: relative;
+}
+
+.cc-clear {
+  height: 130px;
+
+}
+
+
+
+
+
+
+
 
 
 
